@@ -255,6 +255,7 @@ def plot_history(history):
     plt.title('Training and validation accuracy')
     plt.legend()
     plt.savefig('Training and validation accuracy.png')
+    plt.clf()
 
     plt.plot(epochs, loss, 'bo', label='Training loss')
     plt.plot(epochs, val_loss, 'b', label='Validation loss')
