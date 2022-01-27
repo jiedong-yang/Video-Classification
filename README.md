@@ -15,8 +15,7 @@ produced has the shape (#vid * #frames_per_vid, 2048), reshape it into
 (#frames_per_vid, 2048).
 
 4. So the callback doesn't work right now, the accuracy during training and validation can
-be like 99.% and 98.% or something, and the test accuracy is 92%, so maybe something went
-wrong.
+be like 99.% and 98.% or something, and the test accuracy is 92%.
 
 5. Gonna try to do a optical flow fusion in the future, and see what's going on.
 ![](src/Training_and_validation_accuracy.png)
