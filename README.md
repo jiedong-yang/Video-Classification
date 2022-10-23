@@ -1,5 +1,5 @@
 # Video-Classification
-Final project for deep learning course.
+
 Implemented using Keras. Dataset: UCF101.
 
 Labels are sorted alphabetically, choose first ten classes to experiment.
